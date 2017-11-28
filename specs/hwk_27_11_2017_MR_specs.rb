@@ -17,4 +17,8 @@ class TestCCStudent < MiniTest::Test
     assert_equal(20, @profile.cohort)
   end
 
+  def test_student_talks
+    assert_equal("I can talk!", @profile.student_talk)
+  end
+
 end
